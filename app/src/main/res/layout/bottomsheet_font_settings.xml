@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_14sdp"
+        android:text="@string/fontSettingsPrompt"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_60sdp">
+
+        <LinearLayout
+            android:id="@+id/fontSetting1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle"
+                android:gravity="center"
+                android:text="@string/defaultFont"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fontSetting1"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fontSetting2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="@string/defaultFont"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="@string/fontSetting2"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fontSetting3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text="@string/defaultFont"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/fontSetting3"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fontSetting4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:text="@string/defaultFont"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="@string/fontSetting4"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fontSetting5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="@string/defaultFont"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/fontSetting5"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/removeThisSubtitle"
+        android:title="@string/removeThisSubtitleOption"/>
+    <item android:id="@+id/editThisSubtitle"
+        android:title="@string/editThisSubtitleOption"/>
+    <item android:id="@+id/editEntryText"
+        android:title="@string/editEntryTextOption"/>
+    <item android:id="@+id/openSourceLink"
+        android:title="@string/openSourceLinkOption"/>
+</menu>

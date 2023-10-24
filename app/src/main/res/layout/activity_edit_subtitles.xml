@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:id="@+id/editSubtitlesParent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSubtitleSetActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_8sdp">
+
+        <ImageView
+            android:id="@+id/backArrow"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:src="@drawable/ic_arrow_back"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="@string/saveString"
+                android:textColor="@android:color/white"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:textSize="@dimen/_14sdp"
+                android:textAllCaps="false"
+                android:background="@drawable/rounded_button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/enteredTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:gravity="top"
+        android:padding="@dimen/_8sdp"
+        android:background="@drawable/widget_outline"
+        android:hint="@string/titlePrompt"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="@dimen/_12sdp"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="gone"
+        android:text="@string/unableToSaveInvalidMessage"/>
+
+    <EditText
+        android:id="@+id/enteredText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:gravity="top"
+        android:padding="@dimen/_8sdp"
+        android:hint="@string/copyPastePrompt"
+        android:background="@drawable/widget_outline"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:scrollHorizontally="false"
+        android:textSize="@dimen/_12sdp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/sourceLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:gravity="top"
+        android:padding="@dimen/_8sdp"
+        android:background="@drawable/widget_outline"
+        android:hint="@string/sourceLinkPrompt"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="@dimen/_12sdp"
+        tools:ignore="Autofill" />
+
+</LinearLayout>

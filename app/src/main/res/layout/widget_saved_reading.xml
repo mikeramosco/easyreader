@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_12sdp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/checkbox"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:visibility="gone"
+            android:src="@drawable/ic_box_unchecked"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                style="@style/fontSetting3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:text="Title"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/detailsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:text="0 min | 0% read | last opened today"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/subtitlesTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:text="@string/copyPastePrompt"
+                android:textColor="@color/darkGray" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_star_unchecked"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</LinearLayout>

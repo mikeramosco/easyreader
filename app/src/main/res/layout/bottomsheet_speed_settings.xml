@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_14sdp"
+        android:text="@string/speedSettingsPrompt"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_60sdp">
+
+        <LinearLayout
+            android:id="@+id/speedSetting1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text="@string/speedSetting1"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:background="@drawable/simple_circle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/speedSetting2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text="@string/speedSetting2"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:background="@drawable/simple_circle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/speedSetting3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text="@string/speedSetting3"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:background="@drawable/simple_circle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/speedSetting4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text="@string/speedSetting4"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:background="@drawable/simple_circle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/speedSetting5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text="@string/speedSetting5"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:background="@drawable/simple_circle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

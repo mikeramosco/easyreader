@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3C78D8</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="darkGray">#666666</color>
+    <color name="gray">#a6a6a6</color>
+    <color name="lightGray">#dedede</color>
+
+    <color name="textColorSetting1">@android:color/black</color>
+    <color name="textColorSetting2">@color/darkGray</color>
+    <color name="textColorSetting3">@color/gray</color>
+    <color name="textColorSetting4">@color/lightGray</color>
+    <color name="textColorSetting5">@android:color/white</color>
+
+    <color name="backgroundSetting1">@color/colorPrimary</color>
+    <color name="backgroundSetting2">@android:color/holo_green_light</color>
+    <color name="backgroundSetting3">@android:color/holo_orange_light</color>
+    <color name="backgroundSetting4">@android:color/holo_red_light</color>
+    <color name="backgroundSetting5">@android:color/holo_purple</color>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/homePageParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_12sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/fontSetting3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:text="@string/savedReadingsText"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginRight="@dimen/_8sdp"
+                        android:text="@string/starredOnlyText"
+                        android:textColor="@color/darkGray"
+                        tools:ignore="RtlHardcoded" />
+
+                    <Switch
+                        android:id="@+id/starredOnlySwitch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:thumb="@drawable/switch_thumb"
+                        android:track="@drawable/switch_track"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_12sdp"
+                android:gravity="end">
+
+                <Button
+                    android:id="@+id/editButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:text="@string/editString"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:textSize="@dimen/_14sdp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/rounded_button"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/savedReadingsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_marginBottom="@dimen/_27sdp"
+        android:layout_marginRight="@dimen/_19sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/floatingAddButton"
+        android:src="@drawable/ic_add"
+        android:backgroundTint="@color/colorPrimary"
+        app:borderWidth="0dp"
+        app:fabSize="normal"
+        tools:ignore="RtlHardcoded,UnusedAttribute" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

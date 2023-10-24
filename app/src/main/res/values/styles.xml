@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="fontSetting1">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="fontSetting2">
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="fontSetting3">
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="fontSetting4">
+        <item name="android:fontFamily">casual</item>
+    </style>
+
+    <style name="fontSetting5">
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+    </style>
+
+</resources>

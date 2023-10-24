@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_12sdp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/removeButton"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_remove"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/subtitleTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/copyPastePrompt"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:id="@+id/playButton"
+            android:layout_width="@dimen/_27sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_play"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</LinearLayout>

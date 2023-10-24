@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">EZ Reader: Text-to-Subtitles</string>
+
+    <!--  Add Title Activity Strings  -->
+    <!--    buttons  -->
+    <string name="showSettingsString"><u>Show Settings</u></string>
+    <string name="hideSettingsString"><u>Hide Settings</u></string>
+    <string name="saveString">Save</string>
+    <string name="searchString">Search</string>
+    <string name="startReadingString">Start Reading</string>
+
+    <!--    background  -->
+    <string name="backgroundSettingsPrompt">Select a Background Color</string>
+    <string name="backgroundSetting1">Blue</string>
+    <string name="backgroundSetting2">Green</string>
+    <string name="backgroundSetting3">Orange</string>
+    <string name="backgroundSetting4">Red</string>
+    <string name="backgroundSetting5">Purple</string>
+    <string name="backgroundString">Background</string>
+
+    <!--    speed  -->
+    <string name="speedSettingsPrompt">Select a Speed Setting</string>
+    <string name="speedSetting1">.5x</string>
+    <string name="speedSetting2">1x</string>
+    <string name="speedSetting3">1.5x</string>
+    <string name="speedSetting4">2x</string>
+    <string name="speedSetting5">2.5x</string>
+    <string name="defaultSpeed">@string/speedSetting2</string>
+    <string name="speedString">Speed</string>
+
+    <!--    font  -->
+    <string name="fontSettingsPrompt">Select a Font Setting</string>
+    <string name="fontSetting1">Normal</string>
+    <string name="fontSetting2">Serif</string>
+    <string name="fontSetting3">Bold</string>
+    <string name="fontSetting4">Casual</string>
+    <string name="fontSetting5">Smallcaps</string>
+    <string name="defaultFont">Aa</string>
+    <string name="fontString">Font</string>
+
+    <!--    text color  -->
+    <string name="textColorSettingsPrompt">Select a Text Color</string>
+    <string name="textColorSetting1">Black</string>
+    <string name="textColorSetting2">Dark\nGray</string>
+    <string name="textColorSetting3">Gray</string>
+    <string name="textColorSetting4">Light\nGray</string>
+    <string name="textColorSetting5">White</string>
+    <string name="textColorString">Text Color</string>
+
+    <!--    text-to-speech -->
+    <string name="textToSpeechEnabled">ON</string>
+    <string name="textToSpeechDisabled">OFF</string>
+    <string name="textToSpeechString">Text-to-Speech</string>
+
+    <!--    max words  -->
+    <string name="maxWordsSettingPrompt">Set the Max Words per Subtitle\n(Between %1$d and %2$d)</string>
+    <string name="maxWordsInvalidMessage">Please enter a valid number between %1$d and %2$d</string>
+    <string name="defaultMaxWords">35</string>
+    <string name="maxWordsString">Max Words\nper Subtitle</string>
+
+    <!--    prompts  -->
+    <string name="searchSubtitlePrompt">Find Subtitle</string>
+    <string name="editThisSubtitlePrompt">Subtitle to edit:</string>
+    <string name="confirmRemoveSubtitlePrompt">Are you sure you want to remove this subtitle:\n\"%1$s\"?</string>
+    <string name="confirmExitPrompt">All progress will be lost when you exit this page. Continue exiting?</string>
+    <string name="yesString">Yes</string>
+    <string name="noString">No</string>
+
+    <string name="copyPastePrompt">Copy &amp; paste text from article, book, or file here for easy subtitle reading</string>
+    <string name="titlePrompt">Title (optional)</string>
+    <string name="sourceLinkPrompt">Source link (optional)</string>
+    <string name="subtitleListTitle">Subtitle List</string>
+
+    <string name="unableToSaveInvalidMessage">The field below cannot be empty</string>
+    <string name="textToSpeechErrorMessage">The TextToSpeech has encountered an error.</string>
+
+    <!--    menu options  -->
+    <string name="editEntryTextOption">Edit Entry Text</string>
+    <string name="openSourceLinkOption">Open Source Link</string>
+    <string name="addToStarredOption">Add to Starred</string>
+    <string name="removeFromStarredOption">Remove from Starred</string>
+    <string name="removeThisSubtitleOption">Remove This Subtitle</string>
+    <string name="editThisSubtitleOption">Edit This Subtitle</string>
+    
+    <!--    home page text  -->
+    <string name="savedReadingsText">Saved Readings</string>
+    <string name="starredOnlyText">Starred Only</string>
+    <string name="editString">Edit</string>
+    <string name="cancelString">Cancel</string>
+    <string name="deleteString">Delete</string>
+
+    <!--    saved reading details  -->
+    <string name="savedReadingDetailsString">%1$s | %2$s%3$s read | updated %4$s</string>
+    <string name="todayString">today</string>
+    <string name="yesterdayString">yesterday</string>
+    <string name="daysAgoString">days ago</string>
+</resources>
