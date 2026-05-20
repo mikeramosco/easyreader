@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/colorPickerPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_14sdp"
+        android:text="@string/backgroundSettingsPrompt"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_60sdp">
+
+        <LinearLayout
+            android:id="@+id/colorSetting1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/colorSettingView1"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle" />
+
+            <TextView
+                android:id="@+id/colorSettingString1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/backgroundSetting1"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/colorSetting2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/colorSettingView2"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle" />
+
+            <TextView
+                android:id="@+id/colorSettingString2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/backgroundSetting2"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/colorSetting3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/colorSettingView3"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle" />
+
+            <TextView
+                android:id="@+id/colorSettingString3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/backgroundSetting3"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/colorSetting4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/colorSettingView4"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle" />
+
+            <TextView
+                android:id="@+id/colorSettingString4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/backgroundSetting4"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/colorSetting5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/colorSettingView5"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:background="@drawable/simple_circle" />
+
+            <TextView
+                android:id="@+id/colorSettingString5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/backgroundSetting5"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

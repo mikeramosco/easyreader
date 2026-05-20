@@ -1,0 +1,15 @@
+pluginManagement {
+    plugins {
+        id("com.android.application") version '8.8.1'
+        id("org.jetbrains.kotlin.android") version "1.9.24"
+        id 'org.jetbrains.kotlin.android' version '1.9.24'
+        id 'org.jetbrains.kotlin.android' version '1.9.24'
+    }
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+include ':app'
+rootProject.name='easyreader'
